@@ -21,9 +21,12 @@ trouver l'adresse IPv4 ressemblant à 192.168.x.xxx
 
 ### Ajouter les références dans VBA
 
-Outils -> Références -> 
+Outils -> Références ->
+
   Cocher "Microsoft Scripting Runtime"
+  
   Cocher "Microsoft WinHTTP Services, version 5.1"
+  
   Cocher "Microsoft Internet Controls"
 
 ### Lancer l'application
