@@ -19,5 +19,12 @@ trouver l'adresse IPv4 ressemblant à 192.168.x.xxx
 
 écrire cette adresse dans le code VBA, module 1 à la ligne 38 (URL = "http://192.168.x.xxx:5000/send")
 
+### Ajouter les références dans VBA
+
+Outils -> Références -> 
+  Cocher "Microsoft Scripting Runtime"
+  Cocher "Microsoft WinHTTP Services, version 5.1"
+  Cocher "Microsoft Internet Controls"
+
 ### Lancer l'application
 ouvrir une ligne de commande dans le dossier du projet et lancer l'API flask avec la ligne "python api.py"
